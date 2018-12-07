@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="funnyswap-common" />
+        <module name="funnyswap-gateway" />
+        <module name="funnyswap-item-interface" />
+        <module name="funnyswap-item-service" />
+        <module name="funnyswap-item-web" />
+        <module name="funnyswap-orderserv-interface" />
+        <module name="funnyswap-orderserv-service" />
+        <module name="funnyswap-orderserv-web" />
+        <module name="funnyswap-registry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="funny-swap-evaluation" target="1.8" />
+      <module name="funny-swap-evaluation-interface" target="1.8" />
+      <module name="funny-swap-evaluation-service" target="1.8" />
+      <module name="funny-swap-evaluation-web" target="1.8" />
+      <module name="funnyswap-evaluation" target="1.8" />
+      <module name="funnyswap-order" target="1.8" />
+      <module name="funnyswap-order-interface" target="1.8" />
+      <module name="funnyswap-order-service" target="1.8" />
+      <module name="funnyswap-order-web" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
