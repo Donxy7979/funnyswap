@@ -18,11 +18,6 @@
             <artifactId>funnyswap-orderserv-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>com.funnyswap.service</groupId>
-            <artifactId>funnyswap-orderserv-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 

@@ -4,7 +4,7 @@ spring:
   application:
     name: orderserv-service
   datasource:
-    url: jdbc:mysql://47.101.180.128:3306/fs_orderserv
+    url: jdbc:mysql://47.101.180.128:3306/fs_orderserv?characterEncoding=utf8
     username: root
     password: 1x234g
 eureka:
