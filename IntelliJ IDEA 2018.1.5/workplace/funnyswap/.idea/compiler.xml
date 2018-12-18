@@ -10,6 +10,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="funnyswap-common" />
+        <module name="funnyswap-evaluation-interface" />
+        <module name="funnyswap-evaluation-service" />
+        <module name="funnyswap-evaluation-web" />
         <module name="funnyswap-gateway" />
         <module name="funnyswap-item-interface" />
         <module name="funnyswap-item-service" />
@@ -25,7 +28,6 @@
       <module name="funny-swap-evaluation-interface" target="1.8" />
       <module name="funny-swap-evaluation-service" target="1.8" />
       <module name="funny-swap-evaluation-web" target="1.8" />
-      <module name="funnyswap-evaluation" target="1.8" />
       <module name="funnyswap-order" target="1.8" />
       <module name="funnyswap-order-interface" target="1.8" />
       <module name="funnyswap-order-service" target="1.8" />

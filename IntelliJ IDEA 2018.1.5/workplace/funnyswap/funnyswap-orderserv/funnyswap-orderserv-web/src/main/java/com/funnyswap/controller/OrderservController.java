@@ -6,6 +6,7 @@ import com.funnyswap.common.utils.Response;
 import com.funnyswap.constants.RequestStatus;
 import com.funnyswap.domain.Request;
 import com.funnyswap.dto.input.SwapAcceptInput;
+import com.funnyswap.dto.input.SwapRejctInput;
 import com.funnyswap.dto.input.SwapRequestInput;
 import com.funnyswap.service.OrderServService;
 import org.springframework.stereotype.Controller;
@@ -46,5 +47,15 @@ public class OrderservController {
         request.setOrderId(input.getOrderId());
         orderServService.accept(request);
         return ResponseBuilder.buildSuccess("下单成功");
+    }
+
+    @RequestMapping(value = "/swapRejct" ,method = RequestMethod.POST)
+    @ResponseBody
+    public Response rejectRequest(@RequestBody SwapRejctInput input){
+        Request request = new Request();
+        request.setOrderId(input.getOrderId());
+        request.setRequestStatus(RequestStatus.REJECT);
+        orderServService.rejectRequest(request);
+        return ResponseBuilder.buildSuccess("已拒绝该申请");
     }
 }

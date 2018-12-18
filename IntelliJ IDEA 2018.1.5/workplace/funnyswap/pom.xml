@@ -13,6 +13,7 @@
         <module>funnyswap-item</module>
         <module>funnyswap-common</module>
         <module>funnyswap-orderserv</module>
+        <module>funnyswap-evaluation</module>
     </modules>
 
     <packaging>pom</packaging>

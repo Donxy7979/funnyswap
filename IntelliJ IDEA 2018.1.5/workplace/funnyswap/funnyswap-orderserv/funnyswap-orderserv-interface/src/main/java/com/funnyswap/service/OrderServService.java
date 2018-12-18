@@ -6,4 +6,6 @@ public interface OrderServService {
     void sendRequest(Request request);
 
     void accept(Request request);
+
+    void rejectRequest(Request request);
 }

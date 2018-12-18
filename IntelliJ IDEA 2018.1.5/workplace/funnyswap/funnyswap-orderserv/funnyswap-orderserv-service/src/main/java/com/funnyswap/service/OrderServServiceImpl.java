@@ -83,4 +83,8 @@ public class OrderServServiceImpl implements OrderServService {
             throw new FsException(ExceptionEnum.ITEM_LOCKED);
     }
 
+    public void rejectRequest(Request request){
+        requestDao.updateRequest(request);
+    }
+
 }
